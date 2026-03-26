@@ -1,0 +1,50 @@
+# 機密情報 - 絶対にGitHubにアップしない
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+credentials.json
+service-account.json
+secrets/
+private/
+
+# APIキー・トークン
+**/api_key*
+**/token*
+**/*secret*
+**/*credential*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ログ
+*.log
+auto-sync.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
